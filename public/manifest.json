@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Dripplet",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting", "identity"],
+  "host_permissions": ["http://*/*", "https://*/*", "http://localhost:1991/*"],
+  "oauth2": {
+    "client_id": "34932676923-luth1cmkkhoqhq3kaoealqj2poosaln4.apps.googleusercontent.com",
+    "scopes": [
+      "openid",
+      "email",
+      "profile",
+      "https://www.googleapis.com/auth/calendar"
+    ]
+  }
+}
